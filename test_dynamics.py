@@ -14,7 +14,7 @@ def env():
         scen_file="domains_cc/benchmark/in2d/scens/Cantwell@basic.scen",
         problem_index=0,
         dynamics_config="domains_cc/dynamics/ackermann.yaml",
-        footprint_config="domains_cc/footprints/footprint_triangle.yaml"
+        footprint_config="domains_cc/footprints/footprint_rectangle.yaml"
     )
 
 def test_env_load_and_visualize(tmp_path: Path, env):

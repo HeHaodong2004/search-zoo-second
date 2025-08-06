@@ -90,6 +90,8 @@ def main():
             break
 
     print("Debug run complete. 查看 debug_scans/ 目录下的图片。")
-
+'''
+usage example
+'''
 if __name__ == "__main__":
     main()
